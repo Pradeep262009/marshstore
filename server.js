@@ -384,6 +384,10 @@ app.get('/admin.html', authMiddleware, (req, res) => {
   return res.sendFile(path.join(__dirname, 'admin.html'));
 });
 
+app.get('/login.html', (req, res) => {
+  res.sendFile(path.join(__dirname, 'login.html'));
+});
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
