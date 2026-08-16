@@ -48,10 +48,53 @@
       "timeToVerifyMin": 0.4,
       "lastDownloadAt": 1782929855742,
       "lastDownloadIP": "::1"
+    },
+    {
+      "orderId": "99f0f40568c348c9",
+      "token": "1f3b8b5a2e7fb07565a02a8e",
+      "amount": "19.00",
+      "note": "100+ Premium Lightroom Presets",
+      "verified": true,
+      "downloadCount": 1,
+      "createdAt": 1786864043974,
+      "expiresAt": 1786864943974,
+      "accessEvents": [
+        {
+          "type": "payment_verified",
+          "at": 1786864044186,
+          "ip": "127.0.0.1",
+          "userAgent": "node"
+        },
+        {
+          "type": "downloaded",
+          "at": 1786864044196,
+          "ip": "127.0.0.1",
+          "userAgent": "node"
+        }
+      ],
+      "verifiedAt": 1786864044186,
+      "transactionRef": "VALID_TXN_12345",
+      "email": null,
+      "clientIP": "127.0.0.1",
+      "userAgent": "node",
+      "deviceInfo": {
+        "browser": "Unknown",
+        "os": "Unknown",
+        "device": "Desktop"
+      },
+      "geolocation": {
+        "country": "Unknown",
+        "city": "Unknown",
+        "isp": "Unknown"
+      },
+      "timeToVerifyMs": 212,
+      "timeToVerifyMin": 0,
+      "lastDownloadAt": 1786864044196,
+      "lastDownloadIP": "127.0.0.1"
     }
   ],
   "stats": {
-    "paymentsVerified": 1,
-    "downloads": 2
+    "paymentsVerified": 2,
+    "downloads": 3
   }
 }

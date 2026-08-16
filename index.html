@@ -703,7 +703,7 @@
 
         currentOrderId = data.orderId;
         currentUpiUri = data.upiUri;
-        const upiId = '6383617697@fam';
+        const upiId = parseUpiId(currentUpiUri) || 'UPI ID';
         upiUriElement.textContent = upiId;
         openUpiBtn.disabled = false;
         copyUpiBtn.disabled = false;
